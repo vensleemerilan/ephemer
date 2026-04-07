@@ -1,3 +1,10 @@
+![Knowledge Graph](https://img.shields.io/badge/Knowledge%20Graph-005A9C?style=for-the-badge&logo=graphy&logoColor=white)
+![Ontology](https://img.shields.io/badge/Ontology-333333?style=for-the-badge&logo=w3c&logoColor=white)
+![RML](https://img.shields.io/badge/RML-Mapping-green?style=for-the-badge)
+![CARML](https://img.shields.io/badge/CARML-Engine-orange?style=for-the-badge&logo=java&logoColor=white)
+![Turtle](https://img.shields.io/badge/RDF-Turtle-yellow?style=for-the-badge&logo=w3c&logoColor=333333)
+![SPARQL](https://img.shields.io/badge/SPARQL-4285F4?style=for-the-badge&logo=semantic-web&logoColor=white)
+
 # EPHEMER
 
 **Author:** Venslee MERILAN  
