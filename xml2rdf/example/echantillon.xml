@@ -1,0 +1,879 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adlibXML>
+  <recordList>
+  <record priref="320000003" creation="2009-01-29T18:58:25" modification="2025-01-07T17:39:38">
+  <priref tag="%0" occ="1">320000003</priref>
+  <object_number tag="IN" occ="1">CARAFF00145</object_number>
+  <object_number_inventory tag="NV" occ="1">AFF145</object_number_inventory>
+  <administration_name tag="AG" occ="1">Cabinet des arts graphiques - Affiches (Carnavalet)</administration_name>
+  <object_category tag="OC" occ="1">Arts graphiques</object_category>
+  <object_category tag="OC" occ="2">Estampe</object_category>
+  <Object_name>
+    <object_name tag="OB" occ="1">Affiche</object_name>
+  </Object_name>
+  <Title>
+    <title tag="TI" occ="1">THEATRE DE LA PORTE ST. MARTIN/ TOUS LES SOIRS A 7 h 1/2/THEO/ VAN-GHELL/ ALINE DUVAL/ RAVEL/ ALEXANDRE, GOBIN/ TISSIER/ GRAND/ BALLET/ CENDRILLON</title>
+    <title.archives.type tag="oy" occ="1" />
+    <title.type tag="OY" occ="1">
+      <value lang="neutral">TI</value>
+      <value lang="0">written</value>
+      <value lang="2">Titre inscrit (lettre)</value>
+    </title.type>
+  </Title>
+  <identification.record_type tag="rT" occ="1">
+    <value lang="neutral">OBJECT</value>
+    <value lang="0">Object</value>
+    <value lang="2">Oeuvre</value>
+  </identification.record_type>
+  <object.number_type tag="Tn" occ="1">
+    <value lang="neutral">INVENTAIRE</value>
+    <value lang="0">INVENTAIRE</value>
+    <value lang="2">INVENTAIRE</value>
+  </object.number_type>
+  <Production>
+    <creator tag="VV" occ="1">Anonyme</creator>
+    <creator.qualifier tag="KW" occ="1" />
+    <creator.death.date tag="qd" occ="1" />
+    <creator.role tag="FU" occ="1">Dessinateur</creator.role>
+    <author.qualifier tag="CJ" occ="1" />
+    <production.notes tag="V1" occ="1" />
+    <production.place tag="VP" occ="1" />
+    <place.reason tag="Ej" occ="1" />
+    <creator.birth.date tag="qb" occ="1" />
+    <school_style tag="SC" occ="1" />
+    <production.period tag="PT" occ="1" />
+    <production.date_reason tag="Dj" occ="1">
+      <value lang="neutral">MI</value>
+      <value lang="0">MI</value>
+      <value lang="2">Marque ou inscription</value>
+    </production.date_reason>
+    <production.date.reason_notes tag="DO" occ="1">Mention sur le tampon</production.date.reason_notes>
+    <production.date.start tag="DS" occ="1">1879</production.date.start>
+    <production.date.start.prec tag="DR" occ="1">
+      <value lang="neutral">en</value>
+      <value lang="0">en</value>
+      <value lang="2">en</value>
+    </production.date.start.prec>
+    <production.date.end tag="DE" occ="1">1879</production.date.end>
+    <production.date.end.prec tag="DT" occ="1" />
+    <production.date.century tag="eZ" occ="1">19e siècle</production.date.century>
+  </Production>
+  <Production>
+    <creator tag="VV" occ="2">Imprimerie H. Laas</creator>
+    <creator.qualifier tag="KW" occ="2" />
+    <creator.death.date tag="qd" occ="2" />
+    <creator.role tag="FU" occ="2">Imprimeur</creator.role>
+    <author.qualifier tag="CJ" occ="2">
+      <value lang="neutral">MI</value>
+      <value lang="0">MI</value>
+      <value lang="2">Marque ou inscription</value>
+    </author.qualifier>
+    <production.notes tag="V1" occ="2" />
+    <production.place tag="VP" occ="2" />
+    <place.reason tag="Ej" occ="2" />
+    <creator.birth.date tag="qb" occ="2" />
+    <school_style tag="SC" occ="2" />
+    <production.period tag="PT" occ="2" />
+    <production.date_reason tag="Dj" occ="2">
+      <value lang="neutral">MI</value>
+      <value lang="0">MI</value>
+      <value lang="2">Marque ou inscription</value>
+    </production.date_reason>
+    <production.date.reason_notes tag="DO" occ="2">Mention sur le tampon</production.date.reason_notes>
+    <production.date.start tag="DS" occ="2">1879</production.date.start>
+    <production.date.start.prec tag="DR" occ="2">
+      <value lang="neutral">en</value>
+      <value lang="0">en</value>
+      <value lang="2">en</value>
+    </production.date.start.prec>
+    <production.date.end tag="DE" occ="2">1879</production.date.end>
+    <production.date.end.prec tag="DT" occ="2" />
+    <production.date.century tag="eZ" occ="2">19e siècle</production.date.century>
+  </Production>
+  <Reproduction>
+    <reproduction.reference tag="FN" occ="1">LPDP_CARAFF0145_1</reproduction.reference>
+    <reproduction.date tag="RD" occ="1" />
+    <reproduction.description tag="de" occ="1" />
+    <reproduction.format tag="FM" occ="1" />
+    <reproduction.ekta tag="ek" occ="1" />
+    <reproduction.web_exclusion tag="EX" occ="1" />
+    <reproduction.public_web_exclusion tag="Ep" occ="1" />
+    <reproduction.file tag="B1" occ="1">CARAFF0145_1.jpg</reproduction.file>
+    <reproduction.type tag="RP" occ="1">Photographie numérique</reproduction.type>
+  </Reproduction>
+  <Reproduction>
+    <reproduction.reference tag="FN" occ="2">JVD_CARAFF0145_2</reproduction.reference>
+    <reproduction.date tag="RD" occ="2" />
+    <reproduction.description tag="de" occ="2" />
+    <reproduction.format tag="FM" occ="2" />
+    <reproduction.ekta tag="ek" occ="2" />
+    <reproduction.web_exclusion tag="EX" occ="2">x</reproduction.web_exclusion>
+    <reproduction.public_web_exclusion tag="Ep" occ="2">x</reproduction.public_web_exclusion>
+    <reproduction.file tag="B1" occ="2">JVD_CARAFF00145.jpg</reproduction.file>
+    <reproduction.type tag="RP" occ="2">Photographie numérique</reproduction.type>
+  </Reproduction>
+  <Reproduction>
+    <reproduction.reference tag="FN" occ="3">LPDP_33787-1</reproduction.reference>
+    <reproduction.date tag="RD" occ="3" />
+    <reproduction.description tag="de" occ="3" />
+    <reproduction.format tag="FM" occ="3" />
+    <reproduction.ekta tag="ek" occ="3" />
+    <reproduction.web_exclusion tag="EX" occ="3" />
+    <reproduction.public_web_exclusion tag="Ep" occ="3" />
+    <reproduction.file tag="B1" occ="3">LPDP_33787-1.jpg</reproduction.file>
+    <reproduction.type tag="RP" occ="3">Photographie numérique</reproduction.type>
+  </Reproduction>
+  <web_display.validation tag="vI" occ="1">x</web_display.validation>
+  <marking.object_mark tag="Zj" occ="1">
+    <value lang="neutral">1</value>
+    <value lang="0">1</value>
+    <value lang="2">Marqué sur l'objet</value>
+  </marking.object_mark>
+  <marking.notes tag="Zk" occ="1">Au verso sur la toile, au crayon</marking.notes>
+  <acquisition.method tag="VW" occ="1">Mode d'acquisition inconnu</acquisition.method>
+  <description tag="BE" occ="1">Affiche</description>
+  <Constat>
+    <report.description tag="dU" occ="1">Bon état</report.description>
+    <condition.check.name tag="TV" occ="1">Van Deputte, Jocelyne</condition.check.name>
+    <condition.date tag="TU" occ="1">2007</condition.date>
+    <report.todo tag="dX" occ="1" />
+    <report.reason tag="dW" occ="1">
+      <value lang="neutral">R</value>
+      <value lang="0">R</value>
+      <value lang="2">Récolement</value>
+    </report.reason>
+    <report.type tag="dV" occ="1">
+      <value lang="neutral">4</value>
+      <value lang="0">Constat interne hors mouvement</value>
+      <value lang="2">Constat interne hors mouvement</value>
+    </report.type>
+  </Constat>
+  <ConstatSupport>
+    <constats.support_montage_encradrement_mannequinage tag="eB" occ="1">Bon état</constats.support_montage_encradrement_mannequinage>
+    <constats.support_montage_encradrement_mannequinage.commentaire tag="eD" occ="1" />
+    <constats.support_montage_encradrement_mannequinage.date tag="eC" occ="1">2007</constats.support_montage_encradrement_mannequinage.date>
+    <constats.support_montage_encradrement_mannequinage.todo tag="eE" occ="1" />
+  </ConstatSupport>
+  <add>
+    <input.notes tag="mi" occ="1">75090</input.notes>
+    <input.date tag="di" occ="1">2000-09-27</input.date>
+    <input.time tag="tx" occ="1" />
+    <input.source tag="vi" occ="1" />
+    <input.name tag="ni" occ="1">Van de Putte Jocelyne</input.name>
+  </add>
+  <Content_icon>
+    <description.iconographical_description tag="dl" occ="1">Publicité, Théâtre, Paris, 10è arrondissement, Ballet, Littérature, Conte de fées, Théo Van-Ghell, Aline Duval (1824-1903), Pierre-Alfred Ravel (1811-1881), Alexandre, Gobin, Tissier, Diverses vignettes: Personnage de Cendrillon et sa marraine près d'un carrosse, bal, triomphe de Cendrillon avec danseuses, fée posant sa baguette sur deux jeunes filles: l'une en haillons, l'autre en robe de bal, sur un escalier, homme tenant une lanterne, au sol chaussure, groupe de gardes tenant des lanternes</description.iconographical_description>
+    <description.representation.position tag="dr" occ="1" />
+  </Content_icon>
+  <Inscription>
+    <inscription.notes tag="IA" occ="1">Impression</inscription.notes>
+    <inscription.script tag="IS" occ="1" />
+    <inscription.language tag="IL" occ="1" />
+    <inscription.type tag="IT" occ="1">Lettre</inscription.type>
+    <inscription.translation tag="IR" occ="1" />
+    <inscription.transliteration tag="IU" occ="1">" THEATRE DE LA PORTE ST. MARTIN/ TOUS LES SOIRS A 7h 1/2/ THEO/ VAN-GHELL/ ALINE DUVAL/ RAVEL/ ALEXANDRE, GOBIN/ TISSIER/ GRAND/ BALLET/ CENDRILLON/ 100/ DANSEUSES "</inscription.transliteration>
+  </Inscription>
+  <Inscription>
+    <inscription.notes tag="IA" occ="2"> Impression</inscription.notes>
+    <inscription.script tag="IS" occ="2" />
+    <inscription.language tag="IL" occ="2" />
+    <inscription.type tag="IT" occ="2">Lettre</inscription.type>
+    <inscription.translation tag="IR" occ="2" />
+    <inscription.transliteration tag="IU" occ="2">Sur tout le bas: " IMP. H. LAAS 16, R. PIERRE-LEVEE PARIS "</inscription.transliteration>
+  </Inscription>
+  <Inscription>
+    <inscription.notes tag="IA" occ="3">Inscription à l'encre</inscription.notes>
+    <inscription.script tag="IS" occ="3" />
+    <inscription.language tag="IL" occ="3" />
+    <inscription.type tag="IT" occ="3">Marque du musée</inscription.type>
+    <inscription.translation tag="IR" occ="3" />
+    <inscription.transliteration tag="IU" occ="3">B.D.: " CARNAVALET "</inscription.transliteration>
+  </Inscription>
+  <Inscription>
+    <inscription.notes tag="IA" occ="4">Papier imprimé</inscription.notes>
+    <inscription.script tag="IS" occ="4" />
+    <inscription.language tag="IL" occ="4" />
+    <inscription.type tag="IT" occ="4">Timbre</inscription.type>
+    <inscription.translation tag="IR" occ="4" />
+    <inscription.transliteration tag="IU" occ="4">H.D. timbre fiscal 20 centimes</inscription.transliteration>
+  </Inscription>
+  <Inscription>
+    <inscription.notes tag="IA" occ="5">Inscription à l'encre</inscription.notes>
+    <inscription.script tag="IS" occ="5" />
+    <inscription.language tag="IL" occ="5" />
+    <inscription.type tag="IT" occ="5">Tampon</inscription.type>
+    <inscription.translation tag="IR" occ="5" />
+    <inscription.transliteration tag="IU" occ="5">H.D.: " [?] 1 OCTOBRE 1879 "</inscription.transliteration>
+  </Inscription>
+  <usage tag="US" occ="1">Publicité</usage>
+  <Dimension>
+    <dimension.notes tag="DN" occ="1" />
+    <dimension.part tag="DL" occ="1">Oeuvre</dimension.part>
+    <dimension.precision tag="PR" occ="1" />
+    <dimension.type tag="DI" occ="1">Hauteur</dimension.type>
+    <dimension.unit tag="EE" occ="1">cm</dimension.unit>
+    <dimension.value tag="WA" occ="1">109</dimension.value>
+  </Dimension>
+  <Dimension>
+    <dimension.notes tag="DN" occ="2" />
+    <dimension.part tag="DL" occ="2">Oeuvre</dimension.part>
+    <dimension.precision tag="PR" occ="2" />
+    <dimension.type tag="DI" occ="2">Largeur</dimension.type>
+    <dimension.unit tag="EE" occ="2">cm</dimension.unit>
+    <dimension.value tag="WA" occ="2">76</dimension.value>
+  </Dimension>
+  <Dimension>
+    <dimension.notes tag="DN" occ="3" />
+    <dimension.part tag="DL" occ="3">Montage</dimension.part>
+    <dimension.precision tag="PR" occ="3" />
+    <dimension.type tag="DI" occ="3">Hauteur</dimension.type>
+    <dimension.unit tag="EE" occ="3">cm</dimension.unit>
+    <dimension.value tag="WA" occ="3">112.4</dimension.value>
+  </Dimension>
+  <Dimension>
+    <dimension.notes tag="DN" occ="4">.</dimension.notes>
+    <dimension.part tag="DL" occ="4">Montage</dimension.part>
+    <dimension.precision tag="PR" occ="4" />
+    <dimension.type tag="DI" occ="4">Largeur</dimension.type>
+    <dimension.unit tag="EE" occ="4">cm</dimension.unit>
+    <dimension.value tag="WA" occ="4">79.1</dimension.value>
+  </Dimension>
+  <Rights>
+    <rights.assigned tag="Ri" occ="1" />
+    <rights.owner tag="dE" occ="1" />
+    <rights.notes tag="RO" occ="1" />
+    <rights.start tag="Rs" occ="1" />
+    <rights.holder tag="Rh" occ="1" />
+    <rights tag="Rt" occ="1">Détenteurs des droits à identifier</rights>
+    <rights.end tag="Re" occ="1" />
+    <rights.manager tag="dF" occ="1" />
+    <rights.consent_status tag="Rc" occ="1" />
+    <rights.consent_status.date tag="Rd" occ="1" />
+  </Rights>
+  <management.conversion_date tag="zz" occ="1">2009-01-29</management.conversion_date>
+  <management.data_source tag="ZZ" occ="1">Collections</management.data_source>
+  <identification.situation_objet tag="so" occ="1">Présent</identification.situation_objet>
+  <institution.name tag="BA" occ="1">Musée Carnavalet, Histoire de Paris</institution.name>
+  <current_owner tag="HE" occ="1">Ville de Paris</current_owner>
+  <technique tag="TK" occ="1">Papier</technique>
+  <technique tag="TK" occ="2">Lithographie</technique>
+  <technic.note tag="TA" occ="1">Lithographie couleur sur papier</technic.note>
+  <WorkRel>
+    <related_work.author tag="oF" occ="1" />
+    <related_work.notes tag="oH" occ="1">Cf. CARAFF02035: DOUBLE</related_work.notes>
+    <related_work.date tag="oI" occ="1" />
+    <related_work.place tag="oJ" occ="1" />
+    <related_work.title tag="oG" occ="1" />
+  </WorkRel>
+  <temp.title_text tag="tt" occ="1">THEATRE DE LA PORTE ST. MARTIN/ TOUS LES SOIRS A 7 h 1/2/THEO/ VAN-GHELL/ ALINE DUVAL/ RAVEL/ ALEXANDRE, GOBIN/ TISSIER/ GRAND/ BALLET/ CENDRILLON</temp.title_text>
+  <opac_word_index tag="Wi" occ="1">Affiche</opac_word_index>
+  <opac_word_index tag="Wi" occ="2">1879</opac_word_index>
+  <opac_word_index tag="Wi" occ="3">1879</opac_word_index>
+  <opac_word_index tag="Wi" occ="4">1879</opac_word_index>
+  <opac_word_index tag="Wi" occ="5">1879</opac_word_index>
+  <opac_word_index tag="Wi" occ="6">Publicité, Théâtre, Paris, 10è arrondissement, Ballet, Littérature, Conte de fées, Théo Van-Ghell, Aline Duval (1824-1903), Pierre-Alfred Ravel (1811-1881), Alexandre, Gobin, Tissier, Diverses vignettes: Personnage de Cendrillon et sa marraine près d'un carrosse, bal, triomphe de Cendrillon avec danseuses, fée posant sa baguette sur deux jeunes filles: l'une en haillons, l'autre en robe de bal, sur un escalier, homme tenant une lanterne, au sol chaussure, groupe de gardes tenant des lanternes</opac_word_index>
+  <opac_word_index tag="Wi" occ="7">Théâtre de la Porte Saint-Martin (Paris)</opac_word_index>
+  <opac_word_index tag="Wi" occ="8">Affiche</opac_word_index>
+  <opac_word_index tag="Wi" occ="9">Arts graphiques</opac_word_index>
+  <opac_word_index tag="Wi" occ="10">Estampe</opac_word_index>
+  <opac_word_index tag="Wi" occ="11">Publicité</opac_word_index>
+  <opac_word_index tag="Wi" occ="12">Lithographie couleur sur papier</opac_word_index>
+  <opac_word_index tag="Wi" occ="13">THEATRE DE LA PORTE ST. MARTIN/ TOUS LES SOIRS A 7 h 1/2/THEO/ VAN-GHELL/ ALINE DUVAL/ RAVEL/ ALEXANDRE, GOBIN/ TISSIER/ GRAND/ BALLET/ CENDRILLON</opac_word_index>
+  <opac_word_index tag="Wi" occ="14">Papier</opac_word_index>
+  <opac_word_index tag="Wi" occ="15">Lithographie</opac_word_index>
+  <opac_word_index tag="Wi" occ="16">Anonyme</opac_word_index>
+  <opac_word_index tag="Wi" occ="17">Imprimerie H. Laas</opac_word_index>
+  <Related_object>
+    <related_object.association tag="RH" occ="1">Œuvre similaire</related_object.association>
+    <related_object.comment tag="oc" occ="1" />
+    <related_object.reference tag="rt" occ="1">CARAFF02035</related_object.reference>
+  </Related_object>
+  <creation_stage tag="sa" occ="1">Œuvre achevée</creation_stage>
+  <Frame>
+    <frame.notes tag="LO" occ="1">Entoilage</frame.notes>
+    <frame tag="LI" occ="1">Toile (support)</frame>
+  </Frame>
+  <Content_subject>
+    <content.subject.note tag="it" occ="1" />
+    <content.subject.position tag="iv" occ="1" />
+    <content.subject tag="ip" occ="1">Théâtre de la Porte Saint-Martin (Paris)</content.subject>
+    <content.subject.type tag="io" occ="1">
+      <value lang="neutral">PLACE</value>
+      <value lang="0">Place</value>
+      <value lang="2">Lieu</value>
+    </content.subject.type>
+  </Content_subject>
+  <themes_sujets.theme_commentaire tag="Tc" occ="1">Publicité, Théâtre, Paris, 10è arrondissement, Ballet, Littérature, Conte de fées, Cendrillon, Acteur, Actrice, Théo Van-Ghell, Aline Duval (1824-1903), Pierre-Alfred Ravel (1811-1881), Alexandre, Gobin, Tissier</themes_sujets.theme_commentaire>
+</record>
+<record priref="320000004" creation="2009-01-29T18:58:25" modification="2024-10-22T15:39:12">
+  <priref tag="%0" occ="1">320000004</priref>
+  <object_number tag="IN" occ="1">CARAFF00596</object_number>
+  <object_number_inventory tag="NV" occ="1">AFF596</object_number_inventory>
+  <administration_name tag="AG" occ="1">Cabinet des arts graphiques - Affiches (Carnavalet)</administration_name>
+  <object_category tag="OC" occ="1">Arts graphiques</object_category>
+  <object_category tag="OC" occ="2">Estampe</object_category>
+  <Object_name>
+    <object_name tag="OB" occ="1">Affiche</object_name>
+  </Object_name>
+  <Title>
+    <title tag="TI" occ="1">FOLIES-HIPPIQUES/ 61. RUE ROCHECHOUART. 61.</title>
+    <title.archives.type tag="oy" occ="1" />
+    <title.type tag="OY" occ="1">
+      <value lang="neutral">TI</value>
+      <value lang="0">written</value>
+      <value lang="2">Titre inscrit (lettre)</value>
+    </title.type>
+  </Title>
+  <identification.record_type tag="rT" occ="1">
+    <value lang="neutral">OBJECT</value>
+    <value lang="0">Object</value>
+    <value lang="2">Oeuvre</value>
+  </identification.record_type>
+  <object.number_type tag="Tn" occ="1">
+    <value lang="neutral">INVENTAIRE</value>
+    <value lang="0">INVENTAIRE</value>
+    <value lang="2">INVENTAIRE</value>
+  </object.number_type>
+  <Production>
+    <creator tag="VV" occ="1">Vincent, E.</creator>
+    <creator.qualifier tag="KW" occ="1" />
+    <creator.death.date tag="qd" occ="1" />
+    <creator.role tag="FU" occ="1">Dessinateur</creator.role>
+    <author.qualifier tag="CJ" occ="1">
+      <value lang="neutral">MI</value>
+      <value lang="0">MI</value>
+      <value lang="2">Marque ou inscription</value>
+    </author.qualifier>
+    <production.notes tag="V1" occ="1">Signé</production.notes>
+    <production.place tag="VP" occ="1" />
+    <place.reason tag="Ej" occ="1" />
+    <creator.birth.date tag="qb" occ="1" />
+    <school_style tag="SC" occ="1" />
+    <production.period tag="PT" occ="1" />
+    <production.date_reason tag="Dj" occ="1">
+      <value lang="neutral">DSA</value>
+      <value lang="0">DSA</value>
+      <value lang="2">Date supposée ou attribuée</value>
+    </production.date_reason>
+    <production.date.reason_notes tag="DO" occ="1">Adresse de l’imprimerie</production.date.reason_notes>
+    <production.date.start tag="DS" occ="1">1888</production.date.start>
+    <production.date.start.prec tag="DR" occ="1">
+      <value lang="neutral">apres</value>
+      <value lang="0">apres</value>
+      <value lang="2">après</value>
+    </production.date.start.prec>
+    <production.date.end tag="DE" occ="1">1888</production.date.end>
+    <production.date.end.prec tag="DT" occ="1" />
+    <production.date.century tag="eZ" occ="1">19e siècle</production.date.century>
+  </Production>
+  <Production>
+    <creator tag="VV" occ="2">Imprimerie Charles Lévy (Paris)</creator>
+    <creator.qualifier tag="KW" occ="2" />
+    <creator.death.date tag="qd" occ="2" />
+    <creator.role tag="FU" occ="2">Imprimeur</creator.role>
+    <author.qualifier tag="CJ" occ="2">
+      <value lang="neutral">MI</value>
+      <value lang="0">MI</value>
+      <value lang="2">Marque ou inscription</value>
+    </author.qualifier>
+    <production.notes tag="V1" occ="2" />
+    <production.place tag="VP" occ="2" />
+    <place.reason tag="Ej" occ="2" />
+    <creator.birth.date tag="qb" occ="2" />
+    <school_style tag="SC" occ="2" />
+    <production.period tag="PT" occ="2" />
+    <production.date_reason tag="Dj" occ="2">
+      <value lang="neutral">DSA</value>
+      <value lang="0">DSA</value>
+      <value lang="2">Date supposée ou attribuée</value>
+    </production.date_reason>
+    <production.date.reason_notes tag="DO" occ="2">Adresse de l’imprimerie</production.date.reason_notes>
+    <production.date.start tag="DS" occ="2">1888</production.date.start>
+    <production.date.start.prec tag="DR" occ="2">
+      <value lang="neutral">apres</value>
+      <value lang="0">apres</value>
+      <value lang="2">après</value>
+    </production.date.start.prec>
+    <production.date.end tag="DE" occ="2">1888</production.date.end>
+    <production.date.end.prec tag="DT" occ="2" />
+    <production.date.century tag="eZ" occ="2">19e siècle</production.date.century>
+  </Production>
+  <Reproduction>
+    <reproduction.reference tag="FN" occ="1">LPDP_41237-6</reproduction.reference>
+    <reproduction.date tag="RD" occ="1" />
+    <reproduction.description tag="de" occ="1" />
+    <reproduction.format tag="FM" occ="1" />
+    <reproduction.ekta tag="ek" occ="1" />
+    <reproduction.web_exclusion tag="EX" occ="1" />
+    <reproduction.public_web_exclusion tag="Ep" occ="1" />
+    <reproduction.file tag="B1" occ="1">41237-6.jpg</reproduction.file>
+    <reproduction.type tag="RP" occ="1">Photographie numérique</reproduction.type>
+  </Reproduction>
+  <Reproduction>
+    <reproduction.reference tag="FN" occ="2">JVD_CARAFF0596_2</reproduction.reference>
+    <reproduction.date tag="RD" occ="2" />
+    <reproduction.description tag="de" occ="2" />
+    <reproduction.format tag="FM" occ="2" />
+    <reproduction.ekta tag="ek" occ="2" />
+    <reproduction.web_exclusion tag="EX" occ="2">x</reproduction.web_exclusion>
+    <reproduction.public_web_exclusion tag="Ep" occ="2">x</reproduction.public_web_exclusion>
+    <reproduction.file tag="B1" occ="2">JVD_CARAFF00596.jpg</reproduction.file>
+    <reproduction.type tag="RP" occ="2">Photographie numérique</reproduction.type>
+  </Reproduction>
+  <web_display.validation tag="vI" occ="1">x</web_display.validation>
+  <marking.object_mark tag="Zj" occ="1">
+    <value lang="neutral">1</value>
+    <value lang="0">1</value>
+    <value lang="2">Marqué sur l'objet</value>
+  </marking.object_mark>
+  <marking.notes tag="Zk" occ="1">Au verso sur la toile, au crayon</marking.notes>
+  <acquisition.method tag="VW" occ="1">Mode d'acquisition inconnu</acquisition.method>
+  <web_display.record_status tag="sI" occ="1">
+    <value lang="neutral">P</value>
+    <value lang="0">Provisional</value>
+    <value lang="2">Notice provisoire</value>
+  </web_display.record_status>
+  <description tag="BE" occ="1">Affiche</description>
+  <Constat>
+    <report.description tag="dU" occ="1">Bon état</report.description>
+    <condition.check.name tag="TV" occ="1">Van Deputte, Jocelyne</condition.check.name>
+    <condition.date tag="TU" occ="1">2007</condition.date>
+    <report.todo tag="dX" occ="1" />
+    <report.reason tag="dW" occ="1">
+      <value lang="neutral">R</value>
+      <value lang="0">R</value>
+      <value lang="2">Récolement</value>
+    </report.reason>
+    <report.type tag="dV" occ="1">
+      <value lang="neutral">4</value>
+      <value lang="0">Constat interne hors mouvement</value>
+      <value lang="2">Constat interne hors mouvement</value>
+    </report.type>
+  </Constat>
+  <ConstatSupport>
+    <constats.support_montage_encradrement_mannequinage tag="eB" occ="1">Bon état</constats.support_montage_encradrement_mannequinage>
+    <constats.support_montage_encradrement_mannequinage.commentaire tag="eD" occ="1" />
+    <constats.support_montage_encradrement_mannequinage.date tag="eC" occ="1">2007</constats.support_montage_encradrement_mannequinage.date>
+    <constats.support_montage_encradrement_mannequinage.todo tag="eE" occ="1" />
+  </ConstatSupport>
+  <add>
+    <input.notes tag="mi" occ="1">68706</input.notes>
+    <input.date tag="di" occ="1">1999-11-30</input.date>
+    <input.time tag="tx" occ="1" />
+    <input.source tag="vi" occ="1" />
+    <input.name tag="ni" occ="1">Van de Putte Jocelyne</input.name>
+  </add>
+  <Content_icon>
+    <description.iconographical_description tag="dl" occ="1">Publicité, Hippodrome, Paris, 9ème arrondissement, Sport, Equitation, Cheval, Sur la piste de ce qui ressemble à un hippodrome ou à un cirque, cavaliers et cavalières déambulent devant un public réparti autour de cette arène et sur un balcon</description.iconographical_description>
+    <description.representation.position tag="dr" occ="1" />
+  </Content_icon>
+  <Inscription>
+    <inscription.notes tag="IA" occ="1">Impression</inscription.notes>
+    <inscription.script tag="IS" occ="1" />
+    <inscription.language tag="IL" occ="1" />
+    <inscription.type tag="IT" occ="1">Signature</inscription.type>
+    <inscription.translation tag="IR" occ="1" />
+    <inscription.transliteration tag="IU" occ="1">S.B.C.: " E Vincent "</inscription.transliteration>
+  </Inscription>
+  <Inscription>
+    <inscription.notes tag="IA" occ="2">Impression</inscription.notes>
+    <inscription.script tag="IS" occ="2" />
+    <inscription.language tag="IL" occ="2" />
+    <inscription.type tag="IT" occ="2">Lettre</inscription.type>
+    <inscription.translation tag="IR" occ="2" />
+    <inscription.transliteration tag="IU" occ="2">" FOLIES-HIPPIQUES/ 61. RUE ROCHECHOUART. 61 "</inscription.transliteration>
+  </Inscription>
+  <Inscription>
+    <inscription.notes tag="IA" occ="3">Impression</inscription.notes>
+    <inscription.script tag="IS" occ="3" />
+    <inscription.language tag="IL" occ="3" />
+    <inscription.type tag="IT" occ="3">Lettre</inscription.type>
+    <inscription.translation tag="IR" occ="3" />
+    <inscription.transliteration tag="IU" occ="3">B.C.: " AFFICHES AMERICAINES. CH. LEVY, 10, Rue Martel, PARIS. "</inscription.transliteration>
+  </Inscription>
+  <Inscription>
+    <inscription.notes tag="IA" occ="4">Inscription à l'encre</inscription.notes>
+    <inscription.script tag="IS" occ="4" />
+    <inscription.language tag="IL" occ="4" />
+    <inscription.type tag="IT" occ="4">Marque du musée</inscription.type>
+    <inscription.translation tag="IR" occ="4" />
+    <inscription.transliteration tag="IU" occ="4">B.G.: " CARNAVALET "</inscription.transliteration>
+  </Inscription>
+  <Inscription>
+    <inscription.notes tag="IA" occ="5">Inscription à l'encre</inscription.notes>
+    <inscription.script tag="IS" occ="5" />
+    <inscription.language tag="IL" occ="5" />
+    <inscription.type tag="IT" occ="5">Timbre</inscription.type>
+    <inscription.translation tag="IR" occ="5" />
+    <inscription.transliteration tag="IU" occ="5">H.D. : ( dans "Q"): timbre fiscal 20 centimes</inscription.transliteration>
+  </Inscription>
+  <usage tag="US" occ="1">Publicité</usage>
+  <Dimension>
+    <dimension.notes tag="DN" occ="1" />
+    <dimension.part tag="DL" occ="1">Oeuvre</dimension.part>
+    <dimension.precision tag="PR" occ="1" />
+    <dimension.type tag="DI" occ="1">Hauteur</dimension.type>
+    <dimension.unit tag="EE" occ="1">cm</dimension.unit>
+    <dimension.value tag="WA" occ="1">126.6</dimension.value>
+  </Dimension>
+  <Dimension>
+    <dimension.notes tag="DN" occ="2" />
+    <dimension.part tag="DL" occ="2">Oeuvre</dimension.part>
+    <dimension.precision tag="PR" occ="2" />
+    <dimension.type tag="DI" occ="2">Largeur</dimension.type>
+    <dimension.unit tag="EE" occ="2">cm</dimension.unit>
+    <dimension.value tag="WA" occ="2">92.9</dimension.value>
+  </Dimension>
+  <Dimension>
+    <dimension.notes tag="DN" occ="3" />
+    <dimension.part tag="DL" occ="3">Montage</dimension.part>
+    <dimension.precision tag="PR" occ="3" />
+    <dimension.type tag="DI" occ="3">Hauteur</dimension.type>
+    <dimension.unit tag="EE" occ="3">cm</dimension.unit>
+    <dimension.value tag="WA" occ="3">130</dimension.value>
+  </Dimension>
+  <Dimension>
+    <dimension.notes tag="DN" occ="4" />
+    <dimension.part tag="DL" occ="4">Montage</dimension.part>
+    <dimension.precision tag="PR" occ="4" />
+    <dimension.type tag="DI" occ="4">Largeur</dimension.type>
+    <dimension.unit tag="EE" occ="4">cm</dimension.unit>
+    <dimension.value tag="WA" occ="4">94</dimension.value>
+  </Dimension>
+  <Rights>
+    <rights.assigned tag="Ri" occ="1" />
+    <rights.owner tag="dE" occ="1" />
+    <rights.notes tag="RO" occ="1" />
+    <rights.start tag="Rs" occ="1" />
+    <rights.holder tag="Rh" occ="1" />
+    <rights tag="Rt" occ="1">Domaine public</rights>
+    <rights.end tag="Re" occ="1" />
+    <rights.manager tag="dF" occ="1" />
+    <rights.consent_status tag="Rc" occ="1" />
+    <rights.consent_status.date tag="Rd" occ="1" />
+  </Rights>
+  <management.conversion_date tag="zz" occ="1">2009-01-29</management.conversion_date>
+  <management.data_source tag="ZZ" occ="1">Collections</management.data_source>
+  <identification.situation_objet tag="so" occ="1">Présent</identification.situation_objet>
+  <institution.name tag="BA" occ="1">Musée Carnavalet, Histoire de Paris</institution.name>
+  <current_owner tag="HE" occ="1">Ville de Paris</current_owner>
+  <technique tag="TK" occ="1">Lithographie</technique>
+  <technic.note tag="TA" occ="1">Lithographie couleur</technic.note>
+  <temp.title_text tag="tt" occ="1">FOLIES-HIPPIQUES/ 61. RUE ROCHECHOUART. 61.</temp.title_text>
+  <opac_word_index tag="Wi" occ="1">Affiche</opac_word_index>
+  <opac_word_index tag="Wi" occ="2">1888</opac_word_index>
+  <opac_word_index tag="Wi" occ="3">1888</opac_word_index>
+  <opac_word_index tag="Wi" occ="4">1888</opac_word_index>
+  <opac_word_index tag="Wi" occ="5">1888</opac_word_index>
+  <opac_word_index tag="Wi" occ="6">Publicité, Hippodrome, Paris, 9ème arrondissement, Sport, Equitation, Cheval, Sur la piste de ce qui ressemble à un hippodrome ou à un cirque, cavaliers et cavalières déambulent devant un public réparti autour de cette arène et sur un balcon</opac_word_index>
+  <opac_word_index tag="Wi" occ="7">Sport</opac_word_index>
+  <opac_word_index tag="Wi" occ="8">Affiche</opac_word_index>
+  <opac_word_index tag="Wi" occ="9">Arts graphiques</opac_word_index>
+  <opac_word_index tag="Wi" occ="10">Estampe</opac_word_index>
+  <opac_word_index tag="Wi" occ="11">Publicité</opac_word_index>
+  <opac_word_index tag="Wi" occ="12">Lithographie couleur</opac_word_index>
+  <opac_word_index tag="Wi" occ="13">FOLIES-HIPPIQUES/ 61. RUE ROCHECHOUART. 61.</opac_word_index>
+  <opac_word_index tag="Wi" occ="14">Lithographie</opac_word_index>
+  <opac_word_index tag="Wi" occ="15">Vincent, E.</opac_word_index>
+  <opac_word_index tag="Wi" occ="16">Imprimerie Charles Lévy (Paris)</opac_word_index>
+  <creation_stage tag="sa" occ="1">Œuvre achevée</creation_stage>
+  <Frame>
+    <frame.notes tag="LO" occ="1">Entoilage</frame.notes>
+    <frame tag="LI" occ="1">Toile (support)</frame>
+  </Frame>
+  <Content_subject>
+    <content.subject.note tag="it" occ="1" />
+    <content.subject.position tag="iv" occ="1" />
+    <content.subject tag="ip" occ="1">Sport</content.subject>
+    <content.subject.type tag="io" occ="1">
+      <value lang="neutral">SUJET_REP</value>
+      <value lang="0">Subject</value>
+      <value lang="2">Sujet</value>
+    </content.subject.type>
+  </Content_subject>
+  <themes_sujets.theme_commentaire tag="Tc" occ="1">Publicité, Hippodrome, Arène, Paris, 9ème arrondissement, Sport, Equitation, Cheval</themes_sujets.theme_commentaire>
+</record><record priref="320000005" creation="2009-01-29T18:58:25" modification="2025-02-13T18:14:51">
+  <priref tag="%0" occ="1">320000005</priref>
+  <object_number tag="IN" occ="1">CARAFF00581</object_number>
+  <object_number_inventory tag="NV" occ="1">AFF581</object_number_inventory>
+  <administration_name tag="AG" occ="1">Cabinet des arts graphiques - Affiches (Carnavalet)</administration_name>
+  <object_category tag="OC" occ="1">Arts graphiques</object_category>
+  <object_category tag="OC" occ="2">Estampe</object_category>
+  <Object_name>
+    <object_name tag="OB" occ="1">Affiche</object_name>
+  </Object_name>
+  <Title>
+    <title tag="TI" occ="1">FOLIES-RAMBUTEAU/ 18. RUE DE RAMBUTEAU/ TOUS LES SOIRS/ Grand Succès/ l'Indien/ SAÏD-BENNI/ &amp;/ MISS ELLA</title>
+    <title.archives.type tag="oy" occ="1" />
+    <title.type tag="OY" occ="1">
+      <value lang="neutral">TI</value>
+      <value lang="0">written</value>
+      <value lang="2">Titre inscrit (lettre)</value>
+    </title.type>
+  </Title>
+  <identification.record_type tag="rT" occ="1">
+    <value lang="neutral">OBJECT</value>
+    <value lang="0">Object</value>
+    <value lang="2">Oeuvre</value>
+  </identification.record_type>
+  <object.number_type tag="Tn" occ="1">
+    <value lang="neutral">INVENTAIRE</value>
+    <value lang="0">INVENTAIRE</value>
+    <value lang="2">INVENTAIRE</value>
+  </object.number_type>
+  <Production>
+    <creator tag="VV" occ="1">Anonyme</creator>
+    <creator.qualifier tag="KW" occ="1" />
+    <creator.death.date tag="qd" occ="1" />
+    <creator.role tag="FU" occ="1">Dessinateur</creator.role>
+    <author.qualifier tag="CJ" occ="1" />
+    <production.notes tag="V1" occ="1" />
+    <production.place tag="VP" occ="1" />
+    <place.reason tag="Ej" occ="1" />
+    <creator.birth.date tag="qb" occ="1" />
+    <school_style tag="SC" occ="1" />
+    <production.period tag="PT" occ="1" />
+    <production.date_reason tag="Dj" occ="1">
+      <value lang="neutral">DSA</value>
+      <value lang="0">DSA</value>
+      <value lang="2">Date supposée ou attribuée</value>
+    </production.date_reason>
+    <production.date.reason_notes tag="DO" occ="1">Adresse de l'imprimerie</production.date.reason_notes>
+    <production.date.start tag="DS" occ="1">1882</production.date.start>
+    <production.date.start.prec tag="DR" occ="1">
+      <value lang="neutral">entre</value>
+      <value lang="0">entre</value>
+      <value lang="2">entre</value>
+    </production.date.start.prec>
+    <production.date.end tag="DE" occ="1">1888</production.date.end>
+    <production.date.end.prec tag="DT" occ="1">
+      <value lang="neutral">et</value>
+      <value lang="0">et</value>
+      <value lang="2">et</value>
+    </production.date.end.prec>
+    <production.date.century tag="eZ" occ="1">19e siècle</production.date.century>
+  </Production>
+  <Production>
+    <creator tag="VV" occ="2">Imprimerie Charles Lévy (Paris)</creator>
+    <creator.qualifier tag="KW" occ="2" />
+    <creator.death.date tag="qd" occ="2" />
+    <creator.role tag="FU" occ="2">Imprimeur</creator.role>
+    <author.qualifier tag="CJ" occ="2">
+      <value lang="neutral">MI</value>
+      <value lang="0">MI</value>
+      <value lang="2">Marque ou inscription</value>
+    </author.qualifier>
+    <production.notes tag="V1" occ="2" />
+    <production.place tag="VP" occ="2" />
+    <place.reason tag="Ej" occ="2" />
+    <creator.birth.date tag="qb" occ="2" />
+    <school_style tag="SC" occ="2" />
+    <production.period tag="PT" occ="2" />
+    <production.date_reason tag="Dj" occ="2">
+      <value lang="neutral">DSA</value>
+      <value lang="0">DSA</value>
+      <value lang="2">Date supposée ou attribuée</value>
+    </production.date_reason>
+    <production.date.reason_notes tag="DO" occ="2">Adresse de l'imprimerie</production.date.reason_notes>
+    <production.date.start tag="DS" occ="2">1882</production.date.start>
+    <production.date.start.prec tag="DR" occ="2">
+      <value lang="neutral">entre</value>
+      <value lang="0">entre</value>
+      <value lang="2">entre</value>
+    </production.date.start.prec>
+    <production.date.end tag="DE" occ="2">1888</production.date.end>
+    <production.date.end.prec tag="DT" occ="2">
+      <value lang="neutral">et</value>
+      <value lang="0">et</value>
+      <value lang="2">et</value>
+    </production.date.end.prec>
+    <production.date.century tag="eZ" occ="2">19e siècle</production.date.century>
+  </Production>
+  <Reproduction>
+    <reproduction.reference tag="FN" occ="1">LPDP_41264-9</reproduction.reference>
+    <reproduction.date tag="RD" occ="1" />
+    <reproduction.description tag="de" occ="1" />
+    <reproduction.format tag="FM" occ="1" />
+    <reproduction.ekta tag="ek" occ="1" />
+    <reproduction.web_exclusion tag="EX" occ="1" />
+    <reproduction.public_web_exclusion tag="Ep" occ="1" />
+    <reproduction.file tag="B1" occ="1">LPDP_41264-9.jpg</reproduction.file>
+    <reproduction.type tag="RP" occ="1">Photographie numérique</reproduction.type>
+  </Reproduction>
+  <Reproduction>
+    <reproduction.reference tag="FN" occ="2">JVD_CARAFF0581_2</reproduction.reference>
+    <reproduction.date tag="RD" occ="2" />
+    <reproduction.description tag="de" occ="2" />
+    <reproduction.format tag="FM" occ="2" />
+    <reproduction.ekta tag="ek" occ="2" />
+    <reproduction.web_exclusion tag="EX" occ="2">x</reproduction.web_exclusion>
+    <reproduction.public_web_exclusion tag="Ep" occ="2">x</reproduction.public_web_exclusion>
+    <reproduction.file tag="B1" occ="2">JVD_CARAFF00581.jpg</reproduction.file>
+    <reproduction.type tag="RP" occ="2">Photographie numérique</reproduction.type>
+  </Reproduction>
+  <web_display.validation tag="vI" occ="1">x</web_display.validation>
+  <marking.object_mark tag="Zj" occ="1">
+    <value lang="neutral">1</value>
+    <value lang="0">1</value>
+    <value lang="2">Marqué sur l'objet</value>
+  </marking.object_mark>
+  <marking.notes tag="Zk" occ="1">Au verso sur la toile, au crayon</marking.notes>
+  <acquisition.method tag="VW" occ="1">Mode d'acquisition inconnu</acquisition.method>
+  <description tag="BE" occ="1">Affiche</description>
+  <cartel.numero_inventaire tag="cJ" occ="1">AFF0581</cartel.numero_inventaire>
+  <Constat>
+    <report.description tag="dU" occ="1">Bon état</report.description>
+    <condition.check.name tag="TV" occ="1">Van Deputte, Jocelyne</condition.check.name>
+    <condition.date tag="TU" occ="1">2006</condition.date>
+    <report.todo tag="dX" occ="1" />
+    <report.reason tag="dW" occ="1">
+      <value lang="neutral">R</value>
+      <value lang="0">R</value>
+      <value lang="2">Récolement</value>
+    </report.reason>
+    <report.type tag="dV" occ="1">
+      <value lang="neutral">4</value>
+      <value lang="0">Constat interne hors mouvement</value>
+      <value lang="2">Constat interne hors mouvement</value>
+    </report.type>
+  </Constat>
+  <ConstatSupport>
+    <constats.support_montage_encradrement_mannequinage tag="eB" occ="1">Bon état</constats.support_montage_encradrement_mannequinage>
+    <constats.support_montage_encradrement_mannequinage.commentaire tag="eD" occ="1" />
+    <constats.support_montage_encradrement_mannequinage.date tag="eC" occ="1">2006</constats.support_montage_encradrement_mannequinage.date>
+    <constats.support_montage_encradrement_mannequinage.todo tag="eE" occ="1" />
+  </ConstatSupport>
+  <add>
+    <input.notes tag="mi" occ="1">68812</input.notes>
+    <input.date tag="di" occ="1">1999-12-03</input.date>
+    <input.time tag="tx" occ="1" />
+    <input.source tag="vi" occ="1" />
+    <input.name tag="ni" occ="1">Van de Putte Jocelyne</input.name>
+  </add>
+  <Content_icon>
+    <description.iconographical_description tag="dl" occ="1">Publicité, Théâtre, Café-concert, Paris, 3ème arrondissement, Cirque, Duo, Fildefériste, Funambule, Acrobatie, l'acrobate Saïd-Benni sur un fil, l'acrobate Ella suspendue à un filin par la bouche, dans une vignette: le duo d'artistes, Saïd-Benni semble être porté sur le dos d'une femme (probablement un mannequin dont les jambes appartiennent au funambule, tandis que ses propres jambes sont factices)</description.iconographical_description>
+    <description.representation.position tag="dr" occ="1" />
+  </Content_icon>
+  <Inscription>
+    <inscription.notes tag="IA" occ="1">Impression</inscription.notes>
+    <inscription.script tag="IS" occ="1" />
+    <inscription.language tag="IL" occ="1" />
+    <inscription.type tag="IT" occ="1">Lettre</inscription.type>
+    <inscription.translation tag="IR" occ="1" />
+    <inscription.transliteration tag="IU" occ="1">" FOLIES-RAMBUTEAU/ 18. RUE DE RAMBUTEAU/ TOUS LES SOIRS/ Grand Succès/ l'Indien/ SAÏD-BENNI/ &amp;/ MISS ELLA "</inscription.transliteration>
+  </Inscription>
+  <Inscription>
+    <inscription.notes tag="IA" occ="2">Impression</inscription.notes>
+    <inscription.script tag="IS" occ="2" />
+    <inscription.language tag="IL" occ="2" />
+    <inscription.type tag="IT" occ="2">Lettre</inscription.type>
+    <inscription.translation tag="IR" occ="2" />
+    <inscription.transliteration tag="IU" occ="2">B.C.: " AFFICHES AMERICAINES: Imp. CH. LEVY, 76, Rue Château-d'Eau [sic], PARIS. "</inscription.transliteration>
+  </Inscription>
+  <Inscription>
+    <inscription.notes tag="IA" occ="3">Inscription à l'encre</inscription.notes>
+    <inscription.script tag="IS" occ="3" />
+    <inscription.language tag="IL" occ="3" />
+    <inscription.type tag="IT" occ="3">Marque du musée</inscription.type>
+    <inscription.translation tag="IR" occ="3" />
+    <inscription.transliteration tag="IU" occ="3">B.D.: " CARNAVALET "</inscription.transliteration>
+  </Inscription>
+  <Inscription>
+    <inscription.notes tag="IA" occ="4">Inscription à l'encre</inscription.notes>
+    <inscription.script tag="IS" occ="4" />
+    <inscription.language tag="IL" occ="4" />
+    <inscription.type tag="IT" occ="4">Timbre</inscription.type>
+    <inscription.translation tag="IR" occ="4" />
+    <inscription.transliteration tag="IU" occ="4">Mi-H.D. timbre fiscal 10 centimes</inscription.transliteration>
+  </Inscription>
+  <usage tag="US" occ="1">Publicité</usage>
+  <Dimension>
+    <dimension.notes tag="DN" occ="1" />
+    <dimension.part tag="DL" occ="1">Oeuvre</dimension.part>
+    <dimension.precision tag="PR" occ="1" />
+    <dimension.type tag="DI" occ="1">Hauteur</dimension.type>
+    <dimension.unit tag="EE" occ="1">cm</dimension.unit>
+    <dimension.value tag="WA" occ="1">57.4</dimension.value>
+  </Dimension>
+  <Dimension>
+    <dimension.notes tag="DN" occ="2" />
+    <dimension.part tag="DL" occ="2">Oeuvre</dimension.part>
+    <dimension.precision tag="PR" occ="2" />
+    <dimension.type tag="DI" occ="2">Largeur</dimension.type>
+    <dimension.unit tag="EE" occ="2">cm</dimension.unit>
+    <dimension.value tag="WA" occ="2">42.8</dimension.value>
+  </Dimension>
+  <Dimension>
+    <dimension.notes tag="DN" occ="3" />
+    <dimension.part tag="DL" occ="3">Montage</dimension.part>
+    <dimension.precision tag="PR" occ="3" />
+    <dimension.type tag="DI" occ="3">Hauteur</dimension.type>
+    <dimension.unit tag="EE" occ="3">cm</dimension.unit>
+    <dimension.value tag="WA" occ="3">59</dimension.value>
+  </Dimension>
+  <Dimension>
+    <dimension.notes tag="DN" occ="4" />
+    <dimension.part tag="DL" occ="4">Montage</dimension.part>
+    <dimension.precision tag="PR" occ="4" />
+    <dimension.type tag="DI" occ="4">Largeur</dimension.type>
+    <dimension.unit tag="EE" occ="4">cm</dimension.unit>
+    <dimension.value tag="WA" occ="4">44.3</dimension.value>
+  </Dimension>
+  <Rights>
+    <rights.assigned tag="Ri" occ="1" />
+    <rights.owner tag="dE" occ="1" />
+    <rights.notes tag="RO" occ="1" />
+    <rights.start tag="Rs" occ="1" />
+    <rights.holder tag="Rh" occ="1" />
+    <rights tag="Rt" occ="1">Détenteurs des droits à identifier</rights>
+    <rights.end tag="Re" occ="1" />
+    <rights.manager tag="dF" occ="1" />
+    <rights.consent_status tag="Rc" occ="1" />
+    <rights.consent_status.date tag="Rd" occ="1" />
+  </Rights>
+  <management.conversion_date tag="zz" occ="1">2009-01-29</management.conversion_date>
+  <management.data_source tag="ZZ" occ="1">Collections</management.data_source>
+  <identification.situation_objet tag="so" occ="1">Présent</identification.situation_objet>
+  <institution.name tag="BA" occ="1">Musée Carnavalet, Histoire de Paris</institution.name>
+  <current_owner tag="HE" occ="1">Ville de Paris</current_owner>
+  <technique tag="TK" occ="1">Papier</technique>
+  <technique tag="TK" occ="2">Lithographie</technique>
+  <technic.note tag="TA" occ="1">Lithographie couleur</technic.note>
+  <temp.title_text tag="tt" occ="1">FOLIES-RAMBUTEAU/ 18. RUE DE RAMBUTEAU/ TOUS LES SOIRS/ Grand Succès/ l'Indien/ SAÏD-BENNI/ &amp;/ MISS ELLA</temp.title_text>
+  <opac_word_index tag="Wi" occ="1">Affiche</opac_word_index>
+  <opac_word_index tag="Wi" occ="2">1888</opac_word_index>
+  <opac_word_index tag="Wi" occ="3">1888</opac_word_index>
+  <opac_word_index tag="Wi" occ="4">1882</opac_word_index>
+  <opac_word_index tag="Wi" occ="5">1882</opac_word_index>
+  <opac_word_index tag="Wi" occ="6">Publicité, Théâtre, Café-concert, Paris, 3ème arrondissement, Cirque, Duo, Fildefériste, Funambule, Acrobatie, l'acrobate Saïd-Benni sur un fil, l'acrobate Ella suspendue à un filin par la bouche, dans une vignette: le duo d'artistes, Saïd-Benni semble être porté sur le dos d'une femme (probablement un mannequin dont les jambes appartiennent au funambule, tandis que ses propres jambes sont factices)</opac_word_index>
+  <opac_word_index tag="Wi" occ="7">Said-Benni</opac_word_index>
+  <opac_word_index tag="Wi" occ="8">Miss Ella</opac_word_index>
+  <opac_word_index tag="Wi" occ="9">Affiche</opac_word_index>
+  <opac_word_index tag="Wi" occ="10">Arts graphiques</opac_word_index>
+  <opac_word_index tag="Wi" occ="11">Estampe</opac_word_index>
+  <opac_word_index tag="Wi" occ="12">Publicité (Fonction - Utilisation)</opac_word_index>
+  <opac_word_index tag="Wi" occ="13">Lithographie couleur</opac_word_index>
+  <opac_word_index tag="Wi" occ="14">FOLIES-RAMBUTEAU/ 18. RUE DE RAMBUTEAU/ TOUS LES SOIRS/ Grand Succès/ l'Indien/ SAÏD-BENNI/ &amp;/ MISS ELLA</opac_word_index>
+  <opac_word_index tag="Wi" occ="15">Papier</opac_word_index>
+  <opac_word_index tag="Wi" occ="16">Lithographie</opac_word_index>
+  <opac_word_index tag="Wi" occ="17">Anonyme</opac_word_index>
+  <opac_word_index tag="Wi" occ="18">Imprimerie Charles Lévy (Paris)</opac_word_index>
+  <creation_stage tag="sa" occ="1">Œuvre achevée</creation_stage>
+  <Frame>
+    <frame.notes tag="LO" occ="1">Entoilage</frame.notes>
+    <frame tag="LI" occ="1">Toile (support)</frame>
+  </Frame>
+  <Content_person>
+    <content.person.name tag="ij" occ="1">Said-Benni</content.person.name>
+    <content.person.note tag="in" occ="1">Acrobate</content.person.note>
+    <content.person.position tag="iw" occ="1" />
+  </Content_person>
+  <Content_person>
+    <content.person.name tag="ij" occ="2">Miss Ella</content.person.name>
+    <content.person.note tag="in" occ="2">Acrobate</content.person.note>
+    <content.person.position tag="iw" occ="2" />
+  </Content_person>
+  <themes_sujets.theme_commentaire tag="Tc" occ="1">Publicité, Théâtre, Café-concert, Paris, 3ème arrondissement, Cirque, Duo, Fildefériste, Funambule, Acrobatie, Acrobate, Saïd-Benni, Ella</themes_sujets.theme_commentaire>
+</record>
+</recordList>
+</adlibXML>

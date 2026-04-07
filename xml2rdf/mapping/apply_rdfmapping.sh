@@ -1,0 +1,1 @@
+java -jar carml-jar-rdf4j-1.4.0-0.4.11.jar map -m pathTo/YourMapping/File/mapping.ttl -rsl . -of ttl -P -v -p dcterms,rico,eph,vocmin,xsd,skos,owl,rdf -pm pathTo/YourPrefix/File/prefix.yaml -o pathTo/Save/Your/ResultFile/result.ttl
