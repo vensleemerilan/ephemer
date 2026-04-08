@@ -1,0 +1,8 @@
+[project]
+name = "projet-ephemer"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "pyvis>=0.3.2",
+    "rdflib>=7.6.0",
+]
