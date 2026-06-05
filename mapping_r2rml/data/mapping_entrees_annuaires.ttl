@@ -1,0 +1,202 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#>.
+@prefix mapping: <#>.
+@prefix prov: <http://www.w3.org/ns/prov#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix adb: <http://data.soduco.fr/def/annuaire#>.
+@prefix gsp: <http://www.opengis.net/ont/geosparql#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+
+mapping:table
+    rr:sqlQuery """
+        SELECT
+        	uuid_cluster,
+	        cluster_rank,
+	        per_cluster,
+	        act_cluster,
+	        addr_num_cluster,
+	        addr_name_cluster,
+	        address_cluster,
+	        beginning_year,
+	        end_year,
+			time_density,
+			jw_act_avg,
+			jw_per_avg,
+			cluster_type,
+			uuid,
+			per,
+			act,
+			addr_num,
+			addr_name,
+			address,
+			directory,
+			pub_year,
+        	CASE WHEN cluster_type = 'likely' AND cluster_rank = 1 THEN uri_agent ELSE NULL END AS uri_exact,
+            CASE WHEN cluster_type = 'likely' AND cluster_rank != 1 THEN uri_agent ELSE NULL END AS uri_close,
+            CASE WHEN cluster_type = 'unlikely' THEN uri_agent ELSE NULL END AS uri_related,
+            CASE WHEN cluster_type = 'improbable' THEN uri_agent ELSE NULL END AS uri_seealso,
+            ST_AsText(cluster_geometry)::text AS cluster_geometry,
+            ST_AsText(address_geometry)::text AS address_geometry,
+            ST_AsText(geom)::text AS geom
+		FROM testing.final_points_table;
+        """ .
+mapping:table2
+    rr:sqlQuery """
+        SELECT
+        	uuid,
+        	uuid_cluster
+	    FROM testing.final_points_table
+	    ORDER BY uuid;
+        """ .
+
+mapping:lien_cluster_points
+	rr:logicalTable mapping:table2;
+	rr:subjectmap [
+		rr:template "http://rdf.geohistoricaldata.org/id/ephemer/cluster/{uuid_cluster}";
+        rr:class prov:Entity
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate prov:wasDerivedFrom;
+		rr:objectMap [ rr:template "http://data.soduco.fr/id/entry/{uuid}"];
+	].
+
+mapping:cluster
+	rr:logicalTable mapping:table;
+    rr:subjectMap [
+        rr:template "http://rdf.geohistoricaldata.org/id/ephemer/cluster/{uuid_cluster}";
+        rr:class prov:Entity
+    ];
+	rr:predicateObjectMap [
+        rr:predicate dct:identifier;
+		rr:objectMap [ rr:column "uuid_cluster"; rr:datatype xsd:string];
+	];
+	rr:predicateObjectMap [
+        rr:predicate dct:title;
+        rr:objectMap [ rr:column "cluster_rank"; rr:datatype xsd:integer];
+    ];
+	rr:predicateObjectMap [
+        rr:predicate rdfs:label;
+        rr:objectMap [ rr:column "per_cluster"; rr:datatype xsd:string];
+	];
+	rr:predicateObjectMap [
+        rr:predicate adb:activity;
+        rr:objectMap [ rr:column "act_cluster"; rr:datatype xsd:string];
+	];
+	rr:predicateObjectMap [
+        rr:predicate adb:numVoie;
+        rr:objectMap [ rr:column "addr_num_cluster"; rr:datatype xsd:string];
+	];
+	rr:predicateObjectMap [
+        rr:predicate adb:voie;
+        rr:objectMap [ rr:column "addr_name_cluster"; rr:datatype xsd:string];
+	];
+	rr:predicateObjectMap [
+        rr:predicate adb:address;
+        rr:objectMap [ rr:column "address_cluster"; rr:datatype xsd:string];
+	];
+	rr:predicateObjectMap [
+        rr:predicate time:hasBeginning;
+        rr:objectMap [ rr:column "beginning_year"; rr:datatype xsd:integer];
+    ];
+	rr:predicateObjectMap [
+        rr:predicate time:hasEnd;
+        rr:objectMap [ rr:column "end_year"; rr:datatype xsd:integer];
+	];
+	rr:predicateObjectMap [
+        rr:predicate adb:timeDensity;
+        rr:objectMap [ rr:column "time_density"; rr:datatype xsd:float];
+	];
+	rr:predicateObjectMap [
+        rr:predicate adb:jwActAvg;
+        rr:objectMap [ rr:column "jw_act_avg"; rr:datatype xsd:float];
+	];
+	rr:predicateObjectMap [
+        rr:predicate adb:jwPerAvg;
+        rr:objectMap [ rr:column "jw_per_avg"; rr:datatype xsd:float];
+	];
+	rr:predicateObjectMap [
+        rr:predicate adb:clusterType;
+        rr:objectMap [ rr:column "cluster_type"; rr:datatype xsd:string];
+	];
+	rr:predicateObjectMap [
+        rr:predicate adb:hasClusterGeometry;
+        rr:objectMap [ rr:column "cluster_geometry"; rr:datatype gsp:wktLiteral]; #geometrie multipoints
+	];
+	rr:predicateObjectMap [
+        rr:predicate adb:hasAddressGeometry;
+        rr:objectMap [ rr:column "address_geometry"; rr:datatype gsp:wktLiteral]; #geometrie point adresse le plus frequent
+	];
+
+	# 1. Condition: likely + rank = 1
+	rr:predicateObjectMap [
+        rr:predicate skos:exactMatch;
+        rr:objectMap [ rr:column "uri_exact"; rr:termType rr:IRI ];
+    ];
+
+    # 2. Condition: likely + rank != 1
+    rr:predicateObjectMap [
+        rr:predicate skos:closeMatch;
+        rr:objectMap [ rr:column "uri_close"; rr:termType rr:IRI ];
+    ];
+
+    # 3. Condition: unlikely
+    rr:predicateObjectMap [
+        rr:predicate skos:relatedMatch;
+        rr:objectMap [ rr:column "uri_related"; rr:termType rr:IRI ];
+    ];
+
+    # 4. Condition: improbable
+    rr:predicateObjectMap [
+        rr:predicate rdfs:seeAlso;
+        rr:objectMap [ rr:column "uri_seealso"; rr:termType rr:IRI ];
+    ].
+
+
+
+mapping:Entry
+	rr:logicalTable mapping:table;
+    rr:subjectMap [
+        rr:template "http://data.soduco.fr/id/entry/{uuid}";
+        rr:class adb:Entry
+    ];
+    rr:predicateObjectMap [
+        rr:predicate dct:identifier;
+		rr:objectMap [ rr:column "uuid"; rr:datatype xsd:string];
+	];
+	rr:predicateObjectMap [
+        rr:predicate rdfs:label;
+        rr:objectMap [ rr:column "per"; rr:datatype xsd:string];
+    ];
+	rr:predicateObjectMap [
+        rr:predicate adb:activity;
+        rr:objectMap [ rr:column "act"; rr:datatype xsd:string];
+	];
+	rr:predicateObjectMap [
+        rr:predicate adb:numVoie;
+        rr:objectMap [ rr:column "addr_num"; rr:datatype xsd:string];
+	];
+	rr:predicateObjectMap [
+        rr:predicate adb:voie;
+        rr:objectMap [ rr:column "addr_name"; rr:datatype xsd:string];
+	];
+	rr:predicateObjectMap [
+        rr:predicate adb:address;
+        rr:objectMap [ rr:column "address"; rr:datatype xsd:string];
+	];
+	rr:predicateObjectMap [
+		rr:predicate gsp:asWKT ;
+		rr:objectMap [rr:column "geom"; rr:datatype gsp:wktLiteral];
+	];
+	rr:predicateObjectMap [
+        rr:predicate adb:directoryName;
+        rr:objectMap [ rr:column "directory"; rr:datatype xsd:string];
+    ];
+	rr:predicateObjectMap [
+        rr:predicate adb:directoryDate;
+        rr:objectMap [ rr:column "pub_year"; rr:datatype xsd:integer];
+	].
