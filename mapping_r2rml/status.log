@@ -1,0 +1,182 @@
+2026-06-05 16:00:20,640 INFO  [Main] Loaded properties from r2rml.properties
+2026-06-05 16:00:20,752 INFO  [ClassPathXmlApplicationContext] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2de8284b: startup date [Fri Jun 05 16:00:20 CEST 2026]; root of context hierarchy
+2026-06-05 16:00:20,785 INFO  [XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [app-context.xml]
+2026-06-05 16:00:20,914 INFO  [Parser] Initializing.
+2026-06-05 16:00:20,914 INFO  [Database] Establishing source (relational) connection.
+2026-06-05 16:00:21,266 INFO  [Database] Established source (relational) connection.
+2026-06-05 16:00:21,563 INFO  [Parser] Initialising Parser
+2026-06-05 16:00:21,565 INFO  [Parser] Initialized.
+2026-06-05 16:00:21,568 INFO  [Parser] Testing query: <http://rdf.geohistoricaldata.org/id/ephemer/#table2> with value:          SELECT         	uuid,         	uuid_cluster 	    FROM testing.final_points_table 	    ORDER BY uuid          
+2026-06-05 16:00:21,580 INFO  [Database] Query is ok. Retrieves a dataset with 2 column(s).
+2026-06-05 16:00:21,581 INFO  [SelectQuery] Processing query: '         SELECT         	uuid,         	uuid_cluster 	    FROM testing.final_points_table 	    ORDER BY uuid          '
+2026-06-05 16:00:21,581 INFO  [SelectQuery] Adding table with: name 'testing.final_points_table 	    ORDER BY uuid', alias ''
+2026-06-05 16:00:21,581 INFO  [SelectQuery] Adding field with: name 'uuid', table 'testing.final_points_table 	    ORDER BY uuid', alias ''
+2026-06-05 16:00:21,581 INFO  [SelectQuery] Adding field with: name 'uuid_cluster', table 'testing.final_points_table 	    ORDER BY uuid', alias ''
+2026-06-05 16:00:21,581 INFO  [Parser] Testing query: <http://rdf.geohistoricaldata.org/id/ephemer/#table> with value:          SELECT         	uuid_cluster, 	        cluster_rank, 	        per_cluster, 	        act_cluster, 	        addr_num_cluster, 	        addr_name_cluster, 	        address_cluster, 	        beginning_year, 	        end_year, 			time_density, 			jw_act_avg, 			jw_per_avg, 			cluster_type, 			uuid, 			per, 			act, 			addr_num, 			addr_name, 			address, 			directory, 			pub_year,         	CASE WHEN cluster_type = 'likely' AND cluster_rank = 1 THEN uri_agent ELSE NULL END AS uri_exact,             CASE WHEN cluster_type = 'likely' AND cluster_rank != 1 THEN uri_agent ELSE NULL END AS uri_close,             CASE WHEN cluster_type = 'unlikely' THEN uri_agent ELSE NULL END AS uri_related,             CASE WHEN cluster_type = 'improbable' THEN uri_agent ELSE NULL END AS uri_seealso,             ST_AsText(cluster_geometry)::text AS cluster_geometry,             ST_AsText(address_geometry)::text AS address_geometry,             ST_AsText(geom)::text AS geom 		FROM testing.final_points_table          
+2026-06-05 16:00:21,585 INFO  [Database] Query is ok. Retrieves a dataset with 28 column(s).
+2026-06-05 16:00:21,585 INFO  [SelectQuery] Processing query: '         SELECT         	uuid_cluster, 	        cluster_rank, 	        per_cluster, 	        act_cluster, 	        addr_num_cluster, 	        addr_name_cluster, 	        address_cluster, 	        beginning_year, 	        end_year, 			time_density, 			jw_act_avg, 			jw_per_avg, 			cluster_type, 			uuid, 			per, 			act, 			addr_num, 			addr_name, 			address, 			directory, 			pub_year,         	CASE WHEN cluster_type = 'likely' AND cluster_rank = 1 THEN uri_agent ELSE NULL END AS uri_exact,             CASE WHEN cluster_type = 'likely' AND cluster_rank != 1 THEN uri_agent ELSE NULL END AS uri_close,             CASE WHEN cluster_type = 'unlikely' THEN uri_agent ELSE NULL END AS uri_related,             CASE WHEN cluster_type = 'improbable' THEN uri_agent ELSE NULL END AS uri_seealso,             ST_AsText(cluster_geometry)::text AS cluster_geometry,             ST_AsText(address_geometry)::text AS address_geometry,             ST_AsText(geom)::text AS geom 		FROM testing.final_points_table          '
+2026-06-05 16:00:21,585 INFO  [SelectQuery] Adding table with: name 'testing.final_points_table', alias ''
+2026-06-05 16:00:21,585 INFO  [SelectQuery] Adding field with: name 'uuid_cluster', table 'testing.final_points_table', alias ''
+2026-06-05 16:00:21,585 INFO  [SelectQuery] Adding field with: name 'cluster_rank', table 'testing.final_points_table', alias ''
+2026-06-05 16:00:21,585 INFO  [SelectQuery] Adding field with: name 'per_cluster', table 'testing.final_points_table', alias ''
+2026-06-05 16:00:21,585 INFO  [SelectQuery] Adding field with: name 'act_cluster', table 'testing.final_points_table', alias ''
+2026-06-05 16:00:21,585 INFO  [SelectQuery] Adding field with: name 'addr_num_cluster', table 'testing.final_points_table', alias ''
+2026-06-05 16:00:21,585 INFO  [SelectQuery] Adding field with: name 'addr_name_cluster', table 'testing.final_points_table', alias ''
+2026-06-05 16:00:21,585 INFO  [SelectQuery] Adding field with: name 'address_cluster', table 'testing.final_points_table', alias ''
+2026-06-05 16:00:21,585 INFO  [SelectQuery] Adding field with: name 'beginning_year', table 'testing.final_points_table', alias ''
+2026-06-05 16:00:21,585 INFO  [SelectQuery] Adding field with: name 'end_year', table 'testing.final_points_table', alias ''
+2026-06-05 16:00:21,585 INFO  [SelectQuery] Adding field with: name 'time_density', table 'testing.final_points_table', alias ''
+2026-06-05 16:00:21,585 INFO  [SelectQuery] Adding field with: name 'jw_act_avg', table 'testing.final_points_table', alias ''
+2026-06-05 16:00:21,585 INFO  [SelectQuery] Adding field with: name 'jw_per_avg', table 'testing.final_points_table', alias ''
+2026-06-05 16:00:21,585 INFO  [SelectQuery] Adding field with: name 'cluster_type', table 'testing.final_points_table', alias ''
+2026-06-05 16:00:21,585 INFO  [SelectQuery] Adding field with: name 'uuid', table 'testing.final_points_table', alias ''
+2026-06-05 16:00:21,585 INFO  [SelectQuery] Adding field with: name 'per', table 'testing.final_points_table', alias ''
+2026-06-05 16:00:21,585 INFO  [SelectQuery] Adding field with: name 'act', table 'testing.final_points_table', alias ''
+2026-06-05 16:00:21,585 INFO  [SelectQuery] Adding field with: name 'addr_num', table 'testing.final_points_table', alias ''
+2026-06-05 16:00:21,586 INFO  [SelectQuery] Adding field with: name 'addr_name', table 'testing.final_points_table', alias ''
+2026-06-05 16:00:21,586 INFO  [SelectQuery] Adding field with: name 'address', table 'testing.final_points_table', alias ''
+2026-06-05 16:00:21,586 INFO  [SelectQuery] Adding field with: name 'directory', table 'testing.final_points_table', alias ''
+2026-06-05 16:00:21,586 INFO  [SelectQuery] Adding field with: name 'pub_year', table 'testing.final_points_table', alias ''
+2026-06-05 16:00:21,586 INFO  [SelectQuery] Adding field with: name 'CASE WHEN cluster_type = 'likely' AND cluster_rank = 1 THEN uri_agent ELSE NULL END AS uri_exact', table 'testing.final_points_table', alias 'E WHEN cluster_type = 'likely' AND cluster_rank = 1 THEN uri_agent ELSE NULL END AS uri_exact'
+2026-06-05 16:00:21,586 INFO  [SelectQuery] Adding field with: name 'CASE WHEN cluster_type = 'likely' AND cluster_rank != 1 THEN uri_agent ELSE NULL END AS uri_close', table 'testing.final_points_table', alias 'E WHEN cluster_type = 'likely' AND cluster_rank != 1 THEN uri_agent ELSE NULL END AS uri_close'
+2026-06-05 16:00:21,586 INFO  [SelectQuery] Adding field with: name 'CASE WHEN cluster_type = 'unlikely' THEN uri_agent ELSE NULL END AS uri_related', table 'testing.final_points_table', alias 'E WHEN cluster_type = 'unlikely' THEN uri_agent ELSE NULL END AS uri_related'
+2026-06-05 16:00:21,586 INFO  [SelectQuery] Adding field with: name 'CASE WHEN cluster_type = 'improbable' THEN uri_agent ELSE NULL END AS uri_seealso', table 'testing.final_points_table', alias 'E WHEN cluster_type = 'improbable' THEN uri_agent ELSE NULL END AS uri_seealso'
+2026-06-05 16:00:21,586 INFO  [SelectQuery] Adding field with: name 'ST_AsText(cluster_geometry)::text AS cluster_geometry', table 'testing.final_points_table', alias 'Text(cluster_geometry)::text AS cluster_geometry'
+2026-06-05 16:00:21,586 INFO  [SelectQuery] Adding field with: name 'ST_AsText(address_geometry)::text AS address_geometry', table 'testing.final_points_table', alias 'Text(address_geometry)::text AS address_geometry'
+2026-06-05 16:00:21,586 INFO  [SelectQuery] Adding field with: name 'ST_AsText(geom)::text AS geom', table 'testing.final_points_table', alias 'Text(geom)::text AS geom'
+2026-06-05 16:00:21,586 INFO  [Parser] Mapping document has 2 logical table views.
+2026-06-05 16:00:21,586 INFO  [Parser] Found logical table: <http://rdf.geohistoricaldata.org/id/ephemer/#Entry>
+2026-06-05 16:00:21,586 INFO  [Parser] Looking up logical table view http://rdf.geohistoricaldata.org/id/ephemer/#table
+2026-06-05 16:00:21,586 INFO  [Parser] Added logical table mapping from uri <http://rdf.geohistoricaldata.org/id/ephemer/#Entry>
+2026-06-05 16:00:21,586 INFO  [Parser] Found logical table: <http://rdf.geohistoricaldata.org/id/ephemer/#cluster>
+2026-06-05 16:00:21,586 INFO  [Parser] Looking up logical table view http://rdf.geohistoricaldata.org/id/ephemer/#table
+2026-06-05 16:00:21,586 INFO  [Parser] Added logical table mapping from uri <http://rdf.geohistoricaldata.org/id/ephemer/#cluster>
+2026-06-05 16:00:21,586 INFO  [Parser] Found logical table: <http://rdf.geohistoricaldata.org/id/ephemer/#lien_cluster_points>
+2026-06-05 16:00:21,586 INFO  [Parser] Looking up logical table view http://rdf.geohistoricaldata.org/id/ephemer/#table2
+2026-06-05 16:00:21,586 INFO  [Parser] Added logical table mapping from uri <http://rdf.geohistoricaldata.org/id/ephemer/#lien_cluster_points>
+2026-06-05 16:00:21,586 INFO  [Parser] Mapping document has 3 logical table mappings.
+2026-06-05 16:00:21,586 INFO  [Parser] Processing subject map for: <http://rdf.geohistoricaldata.org/id/ephemer/#Entry>
+2026-06-05 16:00:21,586 INFO  [Parser] Processing literal subject template: http://data.soduco.fr/id/entry/{uuid}
+2026-06-05 16:00:21,587 INFO  [Parser] Logical table mapping uri is http://rdf.geohistoricaldata.org/id/ephemer/#Entry
+2026-06-05 16:00:21,587 INFO  [Parser] Subject class is: http://data.soduco.fr/def/annuaire#Entry
+2026-06-05 16:00:21,587 INFO  [Parser] Processing predicate object maps for: <http://rdf.geohistoricaldata.org/id/ephemer/#Entry>
+2026-06-05 16:00:21,587 INFO  [Parser] Predicate is: http://data.soduco.fr/def/annuaire#directoryName
+2026-06-05 16:00:21,587 INFO  [Parser] Added object column and template from column: directory
+2026-06-05 16:00:21,587 INFO  [Parser] Found datatype xsd:string
+2026-06-05 16:00:21,587 INFO  [Parser] Predicate is: http://data.soduco.fr/def/annuaire#activity
+2026-06-05 16:00:21,587 INFO  [Parser] Added object column and template from column: act
+2026-06-05 16:00:21,587 INFO  [Parser] Found datatype xsd:string
+2026-06-05 16:00:21,587 INFO  [Parser] Predicate is: http://data.soduco.fr/def/annuaire#voie
+2026-06-05 16:00:21,587 INFO  [Parser] Added object column and template from column: addr_name
+2026-06-05 16:00:21,587 INFO  [Parser] Found datatype xsd:string
+2026-06-05 16:00:21,588 INFO  [Parser] Predicate is: http://data.soduco.fr/def/annuaire#directoryDate
+2026-06-05 16:00:21,588 INFO  [Parser] Added object column and template from column: pub_year
+2026-06-05 16:00:21,588 INFO  [Parser] Found datatype xsd:integer
+2026-06-05 16:00:21,588 INFO  [Parser] Predicate is: http://data.soduco.fr/def/annuaire#address
+2026-06-05 16:00:21,588 INFO  [Parser] Added object column and template from column: address
+2026-06-05 16:00:21,588 INFO  [Parser] Found datatype xsd:string
+2026-06-05 16:00:21,588 INFO  [Parser] Predicate is: http://purl.org/dc/terms/identifier
+2026-06-05 16:00:21,588 INFO  [Parser] Added object column and template from column: uuid
+2026-06-05 16:00:21,588 INFO  [Parser] Found datatype xsd:string
+2026-06-05 16:00:21,588 INFO  [Parser] Predicate is: http://www.opengis.net/ont/geosparql#asWKT
+2026-06-05 16:00:21,588 INFO  [Parser] Added object column and template from column: geom
+2026-06-05 16:00:21,588 INFO  [Parser] Predicate is: http://data.soduco.fr/def/annuaire#numVoie
+2026-06-05 16:00:21,588 INFO  [Parser] Added object column and template from column: addr_num
+2026-06-05 16:00:21,588 INFO  [Parser] Found datatype xsd:string
+2026-06-05 16:00:21,588 INFO  [Parser] Predicate is: http://www.w3.org/2000/01/rdf-schema#label
+2026-06-05 16:00:21,588 INFO  [Parser] Added object column and template from column: per
+2026-06-05 16:00:21,589 INFO  [Parser] Found datatype xsd:string
+2026-06-05 16:00:21,589 INFO  [Parser] Processing subject map for: <http://rdf.geohistoricaldata.org/id/ephemer/#cluster>
+2026-06-05 16:00:21,589 INFO  [Parser] Processing literal subject template: http://rdf.geohistoricaldata.org/id/ephemer/cluster/{uuid_cluster}
+2026-06-05 16:00:21,589 INFO  [Parser] Logical table mapping uri is http://rdf.geohistoricaldata.org/id/ephemer/#cluster
+2026-06-05 16:00:21,589 INFO  [Parser] Subject class is: http://www.w3.org/ns/prov#Entity
+2026-06-05 16:00:21,589 INFO  [Parser] Processing predicate object maps for: <http://rdf.geohistoricaldata.org/id/ephemer/#cluster>
+2026-06-05 16:00:21,589 INFO  [Parser] Predicate is: http://data.soduco.fr/def/annuaire#hasClusterGeometry
+2026-06-05 16:00:21,589 INFO  [Parser] Added object column and template from column: cluster_geometry
+2026-06-05 16:00:21,589 INFO  [Parser] Predicate is: http://purl.org/dc/terms/identifier
+2026-06-05 16:00:21,589 INFO  [Parser] Added object column and template from column: uuid_cluster
+2026-06-05 16:00:21,589 INFO  [Parser] Found datatype xsd:string
+2026-06-05 16:00:21,589 INFO  [Parser] Predicate is: http://www.w3.org/2004/02/skos/core#relatedMatch
+2026-06-05 16:00:21,589 INFO  [Parser] Added object column and template from column: uri_related
+2026-06-05 16:00:21,589 INFO  [Parser] Found rr:termType IRI
+2026-06-05 16:00:21,589 INFO  [Parser] Predicate is: http://data.soduco.fr/def/annuaire#jwPerAvg
+2026-06-05 16:00:21,589 INFO  [Parser] Added object column and template from column: jw_per_avg
+2026-06-05 16:00:21,589 INFO  [Parser] Found datatype xsd:float
+2026-06-05 16:00:21,590 INFO  [Parser] Predicate is: http://www.w3.org/2006/time#hasBeginning
+2026-06-05 16:00:21,590 INFO  [Parser] Added object column and template from column: beginning_year
+2026-06-05 16:00:21,590 INFO  [Parser] Found datatype xsd:integer
+2026-06-05 16:00:21,590 INFO  [Parser] Predicate is: http://www.w3.org/2000/01/rdf-schema#label
+2026-06-05 16:00:21,590 INFO  [Parser] Added object column and template from column: per_cluster
+2026-06-05 16:00:21,590 INFO  [Parser] Found datatype xsd:string
+2026-06-05 16:00:21,590 INFO  [Parser] Predicate is: http://data.soduco.fr/def/annuaire#hasAddressGeometry
+2026-06-05 16:00:21,590 INFO  [Parser] Added object column and template from column: address_geometry
+2026-06-05 16:00:21,590 INFO  [Parser] Predicate is: http://www.w3.org/2006/time#hasEnd
+2026-06-05 16:00:21,590 INFO  [Parser] Added object column and template from column: end_year
+2026-06-05 16:00:21,590 INFO  [Parser] Found datatype xsd:integer
+2026-06-05 16:00:21,590 INFO  [Parser] Predicate is: http://purl.org/dc/terms/title
+2026-06-05 16:00:21,590 INFO  [Parser] Added object column and template from column: cluster_rank
+2026-06-05 16:00:21,590 INFO  [Parser] Found datatype xsd:integer
+2026-06-05 16:00:21,590 INFO  [Parser] Predicate is: http://www.w3.org/2000/01/rdf-schema#seeAlso
+2026-06-05 16:00:21,590 INFO  [Parser] Added object column and template from column: uri_seealso
+2026-06-05 16:00:21,590 INFO  [Parser] Found rr:termType IRI
+2026-06-05 16:00:21,590 INFO  [Parser] Predicate is: http://www.w3.org/2004/02/skos/core#closeMatch
+2026-06-05 16:00:21,591 INFO  [Parser] Added object column and template from column: uri_close
+2026-06-05 16:00:21,591 INFO  [Parser] Found rr:termType IRI
+2026-06-05 16:00:21,591 INFO  [Parser] Predicate is: http://data.soduco.fr/def/annuaire#voie
+2026-06-05 16:00:21,591 INFO  [Parser] Added object column and template from column: addr_name_cluster
+2026-06-05 16:00:21,591 INFO  [Parser] Found datatype xsd:string
+2026-06-05 16:00:21,591 INFO  [Parser] Predicate is: http://www.w3.org/2004/02/skos/core#exactMatch
+2026-06-05 16:00:21,591 INFO  [Parser] Added object column and template from column: uri_exact
+2026-06-05 16:00:21,591 INFO  [Parser] Found rr:termType IRI
+2026-06-05 16:00:21,591 INFO  [Parser] Predicate is: http://data.soduco.fr/def/annuaire#jwActAvg
+2026-06-05 16:00:21,591 INFO  [Parser] Added object column and template from column: jw_act_avg
+2026-06-05 16:00:21,591 INFO  [Parser] Found datatype xsd:float
+2026-06-05 16:00:21,591 INFO  [Parser] Predicate is: http://data.soduco.fr/def/annuaire#numVoie
+2026-06-05 16:00:21,591 INFO  [Parser] Added object column and template from column: addr_num_cluster
+2026-06-05 16:00:21,591 INFO  [Parser] Found datatype xsd:string
+2026-06-05 16:00:21,591 INFO  [Parser] Predicate is: http://data.soduco.fr/def/annuaire#address
+2026-06-05 16:00:21,591 INFO  [Parser] Added object column and template from column: address_cluster
+2026-06-05 16:00:21,591 INFO  [Parser] Found datatype xsd:string
+2026-06-05 16:00:21,591 INFO  [Parser] Predicate is: http://data.soduco.fr/def/annuaire#clusterType
+2026-06-05 16:00:21,591 INFO  [Parser] Added object column and template from column: cluster_type
+2026-06-05 16:00:21,591 INFO  [Parser] Found datatype xsd:string
+2026-06-05 16:00:21,592 INFO  [Parser] Predicate is: http://data.soduco.fr/def/annuaire#activity
+2026-06-05 16:00:21,592 INFO  [Parser] Added object column and template from column: act_cluster
+2026-06-05 16:00:21,592 INFO  [Parser] Found datatype xsd:string
+2026-06-05 16:00:21,592 INFO  [Parser] Predicate is: http://data.soduco.fr/def/annuaire#timeDensity
+2026-06-05 16:00:21,592 INFO  [Parser] Added object column and template from column: time_density
+2026-06-05 16:00:21,592 INFO  [Parser] Found datatype xsd:float
+2026-06-05 16:00:21,592 INFO  [Parser] Processing subject map for: <http://rdf.geohistoricaldata.org/id/ephemer/#lien_cluster_points>
+2026-06-05 16:00:21,592 INFO  [Parser] Processing predicate object maps for: <http://rdf.geohistoricaldata.org/id/ephemer/#lien_cluster_points>
+2026-06-05 16:00:21,592 INFO  [Parser] Predicate is: http://www.w3.org/ns/prov#wasDerivedFrom
+2026-06-05 16:00:21,592 INFO  [Parser] Processing object map template: http://data.soduco.fr/id/entry/{uuid}
+2026-06-05 16:00:21,592 INFO  [Parser] Logical table mappings will be parsed in the following order:
+2026-06-05 16:00:21,592 INFO  [Parser]  Table mapping uri: http://rdf.geohistoricaldata.org/id/ephemer/#Entry
+2026-06-05 16:00:21,592 INFO  [Parser]  Table mapping uri: http://rdf.geohistoricaldata.org/id/ephemer/#Entry
+2026-06-05 16:00:21,592 INFO  [Parser]  Table mapping uri: http://rdf.geohistoricaldata.org/id/ephemer/#Entry
+2026-06-05 16:00:21,592 INFO  [Parser]  Table mapping uri: http://rdf.geohistoricaldata.org/id/ephemer/#Entry
+2026-06-05 16:00:21,592 INFO  [Parser]  Table mapping uri: http://rdf.geohistoricaldata.org/id/ephemer/#Entry
+2026-06-05 16:00:21,592 INFO  [Parser]  Table mapping uri: http://rdf.geohistoricaldata.org/id/ephemer/#Entry
+2026-06-05 16:00:21,592 INFO  [Parser]  Table mapping uri: http://rdf.geohistoricaldata.org/id/ephemer/#Entry
+2026-06-05 16:00:21,592 INFO  [Parser]  Table mapping uri: http://rdf.geohistoricaldata.org/id/ephemer/#Entry
+2026-06-05 16:00:21,592 INFO  [Parser]  Table mapping uri: http://rdf.geohistoricaldata.org/id/ephemer/#Entry
+2026-06-05 16:00:21,592 INFO  [Parser]  Table mapping uri: http://rdf.geohistoricaldata.org/id/ephemer/#cluster
+2026-06-05 16:00:21,592 INFO  [Parser]  Table mapping uri: http://rdf.geohistoricaldata.org/id/ephemer/#cluster
+2026-06-05 16:00:21,592 INFO  [Parser]  Table mapping uri: http://rdf.geohistoricaldata.org/id/ephemer/#cluster
+2026-06-05 16:00:21,592 INFO  [Parser]  Table mapping uri: http://rdf.geohistoricaldata.org/id/ephemer/#cluster
+2026-06-05 16:00:21,592 INFO  [Parser]  Table mapping uri: http://rdf.geohistoricaldata.org/id/ephemer/#cluster
+2026-06-05 16:00:21,592 INFO  [Parser]  Table mapping uri: http://rdf.geohistoricaldata.org/id/ephemer/#cluster
+2026-06-05 16:00:21,592 INFO  [Parser]  Table mapping uri: http://rdf.geohistoricaldata.org/id/ephemer/#cluster
+2026-06-05 16:00:21,592 INFO  [Parser]  Table mapping uri: http://rdf.geohistoricaldata.org/id/ephemer/#cluster
+2026-06-05 16:00:21,592 INFO  [Parser]  Table mapping uri: http://rdf.geohistoricaldata.org/id/ephemer/#cluster
+2026-06-05 16:00:21,592 INFO  [Parser]  Table mapping uri: http://rdf.geohistoricaldata.org/id/ephemer/#cluster
+2026-06-05 16:00:21,592 INFO  [Parser]  Table mapping uri: http://rdf.geohistoricaldata.org/id/ephemer/#cluster
+2026-06-05 16:00:21,592 INFO  [Parser]  Table mapping uri: http://rdf.geohistoricaldata.org/id/ephemer/#cluster
+2026-06-05 16:00:21,592 INFO  [Parser]  Table mapping uri: http://rdf.geohistoricaldata.org/id/ephemer/#cluster
+2026-06-05 16:00:21,592 INFO  [Parser]  Table mapping uri: http://rdf.geohistoricaldata.org/id/ephemer/#cluster
+2026-06-05 16:00:21,592 INFO  [Parser]  Table mapping uri: http://rdf.geohistoricaldata.org/id/ephemer/#cluster
+2026-06-05 16:00:21,592 INFO  [Parser]  Table mapping uri: http://rdf.geohistoricaldata.org/id/ephemer/#cluster
+2026-06-05 16:00:21,592 INFO  [Parser]  Table mapping uri: http://rdf.geohistoricaldata.org/id/ephemer/#cluster
+2026-06-05 16:00:21,592 INFO  [Parser]  Table mapping uri: http://rdf.geohistoricaldata.org/id/ephemer/#cluster
+2026-06-05 16:00:21,592 INFO  [Parser]  Table mapping uri: http://rdf.geohistoricaldata.org/id/ephemer/#cluster
+2026-06-05 16:00:21,592 INFO  [Parser]  Table mapping uri: http://rdf.geohistoricaldata.org/id/ephemer/#lien_cluster_points
