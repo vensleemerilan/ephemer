@@ -1,0 +1,1 @@
+java -jar carml-jar-rdf4j-1.4.0-0.4.11.jar map -m /home/vmerilan/Documents/VMerilan/scripts/algo_traitement_v1/v1_exec/mapping_affiches.ttl -rsl . -of ttl -P -v -p dcterms,rico,eph,vocmin,xsd,skos,owl,rdf -pm /home/vmerilan/Documents/VMerilan/scripts/algo_traitement_v1/v1_exec/prefixes.yaml -o /home/vmerilan/Documents/VMerilan/scripts/algo_traitement_v1/v1_exec/graph_affiches.ttl

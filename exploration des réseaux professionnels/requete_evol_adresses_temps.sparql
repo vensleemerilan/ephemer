@@ -1,0 +1,41 @@
+PREFIX : <http://example.org/voc#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rico: <https://www.ica.org/standards/RiC/ontology#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX adb: <http://data.soduco.fr/def/annuaire#>
+PREFIX time:  <http://www.w3.org/2006/time#>
+ 
+SELECT DISTINCT ?uriAgent (MIN (?debut) AS ?dateminAgent) (MAX (?fin) AS ?datemaxAgent) ?top1 ?top1Adresse ?top1BorneInf ?top1BorneSup ?top2 ?top2Adresse ?top2BorneInf ?top2BorneSup
+WHERE { 
+     ?rel a rico:CreationRelation .
+ 	 ?rel rico:relationHasSource ?affiche ;
+       rico:relationHasTarget ?uriAgent .
+	?affiche rico:hasCreationDate ?date .
+    ?date rico:beginningDate ?debut ;
+          rico:endDate ?fin .
+
+	?top1 skos:exactMatch ?uriAgent .
+    ?top1 adb:address ?top1Adresse .
+   	?top1 time:hasBeginning ?top1BorneInf.
+    ?top1 time:hasEnd ?top1BorneSup .
+        
+  OPTIONAL {
+
+    {
+      SELECT ?uriAgent ?top2 WHERE {
+        ?top2 skos:closeMatch ?uriAgent ;
+                adb:jwPerAvg ?PerAvgjw;
+                adb:jwActAvg ?ActAvgjw;
+                adb:timeDensity ?densiteTemporelle .
+      }
+      ORDER BY DESC(?PerAvgjw) DESC(?ActAvgjw) DESC(?densiteTemporelle)
+      LIMIT 1
+    }
+        ?top2 adb:address ?top2Adresse ;
+                time:hasBeginning ?top2BorneInf ;
+                time:hasEnd ?top2BorneSup .
+  }
+}
+
+GROUP BY ?uriAgent ?top1 ?top1Adresse ?top1BorneInf ?top1BorneSup ?top2 ?top2Adresse ?top2BorneInf ?top2BorneSup
