@@ -135,8 +135,8 @@ Cette étape permet d'explorer les réseaux professionnels localisés.
 | :--- | :--- | :--- |
 | **Langage principal** | Python `>= 3.10` | Traitements de données, notebooks d'analyse, scripts d'extraction |
 | **Moteur RDF (XML)** | [CARML Engine](https://github.com/carml/carml) | Exécution des règles RML pour la transformation XML -> RDF |
-| **Moteur RDF (SQL / RDB)** | R2RML Parser | Mapping R2RML pour intégrer les résultats SQL dans le graphe |
-| **Moteur RDF** | [Morph](https://github.com/oeg-upm/morph-rdb)| Intégration des commanditaires dans le graphe |
+| **Moteur RDF (SQL / RDB)** | [R2RML Parser](https://www.w3.org/2001/sw/wiki/R2RML_Parser) | Mapping R2RML pour intégrer les résultats SQL dans le graphe |
+| **Moteur RDF** | [Morph](https://morph-kgc.readthedocs.io/en/stable/)| Intégration des commanditaires dans le graphe |
 | **SGBD Relationnel** | PostgreSQL / PostGIS | Stockage et requêtage SQL de la base des annuaires SODUCO |
 | **LLM Locaux** | Ollama (`Gemma 4`), `Mistral-8B` | Extraction entités (commanditaires, catégories) & parsing des identités |
 | **Analyse Spatiale & SIG** | GeoPandas, QGIS | Génération de couches GeoPackage (`.gpkg`) et représentations cartographiques |
